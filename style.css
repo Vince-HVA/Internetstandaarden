@@ -1,0 +1,90 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header {
+    border: solid salmon;
+    background-color: pink;
+    text-align: center;
+    padding: 1em;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2em;
+    border-radius: 1em;
+}
+
+
+main {
+    padding-top: 2em;
+    padding-bottom: 14em;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    font-size: small;
+    color: white;
+    height: 3em;
+}
+
+
+.titelover-ons {
+    background-color: salmon;
+    border: solid pink;
+    padding: 1em;
+    width: fit-content;
+    font-size:large;
+}
+
+.afleveringheader {
+    background-color: salmon;
+    border: solid pink;
+    padding: 1em;
+    width: fit-content;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    transition: all 350ms ease;
+    background: beige;
+    border-radius: 0.5em;
+    border-style: groove; color: wheat;
+    color: black;
+    padding: 0.7em;
+    gap: 1em;
+    margin-right: 15em;
+    text-align: right;
+
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+    color: blue;
+}
+
+
+.logo   {
+    background: none;
+    border: none;
+    width: 4.5em;
+    height: 3em;
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video {
+    text-align: left;
+}
+
+li {
+    display: flex;
+    justify-content: center
+    ;
+}
