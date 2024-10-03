@@ -1,0 +1,691 @@
+#pagina1 {
+    background-image: url(images/achtergrondd.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pagina2 {
+    background-image: url(images/blahh.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 6.3vh;
+    width: 100vw;
+    background-color: #1B48AF;
+}
+
+#pagina3 {
+    background-image: url(images/overonsachtergrond.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pagina4 {
+    background-image: url(images/contactachtergrond.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pagina4 .contactp {
+    color: black;
+    background-color: white;
+    width: 40em;
+    font-size: 150%;
+    padding: 3em;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
+    margin-left: -2em;
+    margin-top: 1.4em;
+}
+
+.baar   {
+    height: 46.2em;
+    width: 48em;
+    margin-left: 63em;
+    margin-top: -43.9em;
+}
+
+.headset    {   
+    margin-top: -5em;
+    margin-left:45em;  
+    width: 35em;
+    transform: scaleX(-1);
+} /* Deze transform code van Chatgpt */
+
+#footeroverons  {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 21.6vh;
+    width: 100%; 
+    position: absolute; 
+    margin-bottom: -17em;
+    left: 0em;
+    display: flex; 
+    justify-content: center;
+}
+
+#footeroverons p {
+    color: white;
+    position: absolute;
+    margin-top: -17.5em;
+}
+
+.videoplaatje:hover {
+    transform: scale(1.05);
+    opacity: 80%;
+}
+
+
+
+.logo {
+    width: 6em;
+    height: 4em;
+    position: absolute;
+    top: 1em;
+    left: 1;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin-top: 2em;
+    margin-left: 22.3em;
+    padding: 1;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    margin: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactkleur {
+    color: white;
+}
+
+li a:hover {
+    opacity: 60%;
+    text-decoration: underline;
+    transition: all 300ms ease;
+}
+
+#pagina3 nav ul {
+    list-style: none;
+    margin-top: 2em;
+    padding: 1;
+    margin-left: 32em;
+}
+
+#pagina3 h1 {
+    color: rgb(15, 15, 148);
+    font-size: 900%;
+    position: absolute;
+    top: 0em;
+    right: 2em;
+    width: 4em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#pagina3 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 27em;
+    right: 36em;
+    width: 29em;
+}
+
+.button {
+    position: absolute;
+    bottom: 20em;
+    left: 41em;
+    background-color: rgb(15, 15, 148);
+    padding: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white;
+    text-decoration: none;
+    transition: all 100ms ease;
+}
+
+.button1 {
+    position: absolute;
+    bottom: 20em;
+    left: 49.3em;
+    height: 1.1em;
+    background-color: rgb(15, 15, 148);
+    padding: 0.7em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 1em;
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+    text-decoration: none;
+    transition: all 100ms ease;
+}
+
+.button:hover   {
+    background-color: goldenrod;
+}
+
+.button1:hover   {
+    background-color: goldenrod;
+}
+
+.bier   {
+    height: 40em;
+    position: absolute;
+    bottom: -3.5em;
+    right: 4em;
+    transform: rotate(350deg);
+}
+.pijl   {
+    height: 1.3em;
+    position: absolute;
+    right: 55.2em;
+    bottom: 20.35em;
+}
+
+.titel {
+    color: yellow;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+    width: 8em;
+    margin-left: 13.5em;
+}
+
+.inleiding {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 2em;
+    margin-left: 32.5em;
+    width: 20vw;
+}
+
+iframe {
+    height: 13em;
+    width: 20em;
+    margin-left: 42em;
+    margin-top: 1.6em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20vh;
+    width: 100%; 
+    position: absolute; 
+    bottom: -2em;
+    left: 0em;
+    display: flex; 
+    justify-content: center;
+}
+
+footer li:first-child nav a {
+    color: white;
+}
+
+footer li:first-child {
+    margin-top: 0em;
+}
+ 
+footer li:nth-child(2) a {
+    list-style: none;
+    background-color: black;
+    border-radius: 1em;
+    border: solid white;
+    padding: 0.3em;
+    margin: 1em;
+    color: white;
+    justify-content: left;
+}
+ 
+footer ul {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1em;
+}
+ 
+#aflevering1 {
+    background-color: darkblue;
+    color: white;
+    width: 45em;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#aflevering1 img {
+    width: 15em; 
+    margin-right: 1.2em; 
+    border-radius: 1em;
+}
+
+#aflevering1 p {
+    width: 55%; 
+    color: white;
+    font-size: 0.9em;
+    margin-right: 3em;
+}
+
+
+
+#aflevering1 h2 {
+    position: absolute;
+    top: 4.7em;
+    left: 16.5em;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yl-1 {
+    position: absolute;
+    height: 1.5em;
+    top: 12em;
+    left: 10em;
+}
+
+#aflevering2 {
+    background-color: darkblue;
+    color: white;
+    width: 45em;
+    margin-top: 2em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 1em;
+    position: absolute;
+    top: 4.5em;
+    right: 3em;
+}
+
+#aflevering2 img {
+    width: 15em; 
+    margin-right: 1.2em; 
+    height: 10em;
+    border-radius: 1em;
+}
+
+#aflevering2 p {
+    width: 55%; 
+    color: white;
+    font-size: 0.9em;
+    margin-right: 3em;
+}
+
+#aflevering2 h2 {
+    position: absolute;
+    top: -0.5em;
+    left: 19em;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yl-2 {
+    position: absolute;
+    height: 1.5em;
+    top: 12.3em;
+    right: 40em;
+}
+
+
+
+#aflevering3 {
+    background-color: darkblue;
+    color: white;
+    width: 45em;
+    margin-top: 2em;
+    margin-left: 2em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#aflevering3 img {
+    width: 15em; 
+    margin-right: 1.2em; 
+    height: 10em;
+    border-radius: 1em;
+}
+
+#aflevering3 p {
+    width: 55%; 
+    color: white;
+    font-size: 0.9em;
+    margin-right: 3em;
+}
+
+#aflevering3 h2 {
+    position: absolute;
+    top: 15.9em;
+    left: 18em;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yl-3 {
+    position: absolute;
+    height: 1.5em;
+    top: 26.3em;
+    left: 10em;
+}
+
+#aflevering4 {
+    background-color: darkblue;
+    color: white;
+    width: 45em;
+    margin-top: 2em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 1em;
+    position: absolute;
+    top: 19em;
+    right:3em;
+}
+
+#aflevering4 img {
+    width: 15em; 
+    margin-right: 1.2em; 
+    height: 10em;
+    border-radius: 1em;
+}
+
+#aflevering4 p {
+    width: 55%; 
+    color: white;
+    font-size: 0.9em;
+    margin-right: 3em;
+}
+
+#aflevering4 h2 {
+    position: absolute;
+    top: -0.5em;
+    left: 19em;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yl-4 {
+    position: absolute;
+    height: 1.5em;
+    top: 26.7em;
+    right: 40.3em;
+}
+
+#aflevering5 {
+    background-color: darkblue;
+    color: white;
+    width: 45em;
+    margin-top: 2em;
+    margin-left: 2em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#aflevering5 img {
+    width: 15em; 
+    margin-right: 1.2em; 
+    height: 10em;
+    border-radius: 1em;
+}
+
+#aflevering5 p {
+    width: 55%; 
+    color: white;
+    font-size: 0.9em;
+    margin-right: 3em;
+}
+
+#aflevering5 h2 {
+    position: absolute;
+    top: 27em;
+    left: 16em;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yl-5 {
+    position: absolute;
+    height: 1.5em;
+    top: 40.2em;
+    left: 10em;
+}
+
+#aflevering6 {
+    background-color: darkblue;
+    color: white;
+    width: 45em;
+    margin-top: 2em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 1em;
+    position: absolute;
+    top: 32.6em;
+    right:3em;
+}
+
+#aflevering6 img {
+    width: 15em; 
+    margin-right: 1.2em; 
+    height: 10em;
+    border-radius: 1em;
+}
+
+#aflevering6 p {
+    width: 55%; 
+    color: white;
+    font-size: 0.9em;
+    margin-right: 3em;
+}
+
+#aflevering6 h2 {
+    position: absolute;
+    top: -0.5em;
+    right: 9em;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yl-6 {
+    position: absolute;
+    height: 1.5em;
+    top: 40em;
+    right: 40.2em;
+}
+
+.vinceromke  {
+    position: absolute;
+    top: 6.15em;
+    left: 0em;
+    width: 35vw;
+    height:63.9vh;
+    opacity: 100%
+}
+
+
+
+.ons1 img    {
+    width: 10em;
+    position: absolute;
+    bottom: 3.5em;
+    left: 14em;
+}
+
+.ons1 p {
+    color: white;
+    margin-right: 80em;
+    margin-top: 63em;
+    width: 1em;
+    font-size: 0.5em;
+}
+
+
+
+
+.ons2 img {
+    width: 10em;
+    position: absolute;
+    bottom: 3em;
+    left: 36em;
+}
+
+.ons2 p{
+    color: white;
+    margin-right: 45em;
+    margin-top: 62em;
+    font-size: 0.5em;
+}
+
+.ons3 img {
+    width: 6em;
+    position: absolute;
+    bottom: 3em;
+    left: 60em;
+}
+
+.ons3 p{
+    color: white;
+    margin-right: 15em;
+    margin-top: 62em;
+    font-size: 0.5em;
+}
+
+label {
+    margin-bottom: 1em;
+    margin-left: 0em;
+    font-size: larger;
+    color: white;
+    bottom: -100em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10em;
+    margin-left: 1em;
+}
+
+input {
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-color: #797979;
+    border-width: 0.2em;
+    margin-left: 0em;
+    width: 30em; /* Pas de breedte van het inputveld aan */
+    border-style: solid;
+}
+
+textarea {
+    padding: 3em;
+    margin-bottom: 2em;
+    border-color: #828282;
+    border-width: 0.2em;
+    border-radius: 0em;
+    margin-left: 0em;
+    border-style: solid;
+    
+  
+  }
+  
+
+button {
+    padding: 0.5em;
+    background-color: rgb(52, 49, 200);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+    width: 10em; /* Maak de knop consistent qua breedte */
+    align-self: center;
+    margin-bottom: 2.5em;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+h1 {
+    text-align: center;  
+}
+
+form {
+    position: absolute;
+    bottom: -1em;
+}
+
+#sectionep {
+    width: 16em;
+    height: 31em;
+    margin-top: -23em;
+    margin-left: -1em;
+}
+
+#sectiont {
+    font-size: 200%;
+    position: absolute;
+    margin-top: -20em;
+    margin-left: 10em;
+    color: black;
+    background-color: antiquewhite;
+    padding: 0.3em;
+    animation-name: binnenkort;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes binnenkort {
+    0% {
+        transform: scale(1); /* Normale grootte */
+      }
+      50% {
+        transform: scale(1.15); /* 1.5x vergroten */
+      }
+      100% {
+        transform: scale(1); /* Terug naar normale grootte */
+      }
+  } /* Code van ChatGPT | Regel 679 t/m regel 688. */
+
+#sectionp {
+    width: 12em;
+    position: absolute;
+    margin-top: -28em;
+    transform: scaleX(-1);
+}
+
+
